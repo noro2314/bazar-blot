@@ -338,3 +338,6 @@ appsettings.Production.json
 appsettings.Staging.json
 *.user
 *.suo
+# SQLite database temp files
+*.sqlite-shm
+*.sqlite-wal
