@@ -4,7 +4,7 @@
 export const API_CONFIG = {
   // Փոխեք այս URL-ը ձեր backend-ի համան
   // Change this URL to match your backend
-  BASE_URL: import.meta.env.VITE_API_URL || 'https://localhost:7001',
+  BASE_URL: import.meta.env.VITE_API_URL || 'http://localhost:5144',
   ENDPOINTS: {
     AUTH: {
       LOGIN: '/api/auth/login',
